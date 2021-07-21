@@ -1,0 +1,13 @@
+footer {
+  div {
+    display: grid;
+    grid-template-columns: repeat(5,4rem);
+    grid-template-rows: repeat(5,4rem);
+  justify-content: space-evenly;  
+  padding-top: 3rem;
+  gap: 3rem;    
+  margin-left: 20rem;
+  margin-right: 30rem;
+  color: white;
+}
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    height: auto;
+
+footer {
+    background-color: rgb(8, 8, 8);
+    height: auto
+}
+
+}
+@import "../scss/layout/header";
+
+@import "../scss/layout/main";
+
+@import "../scss/layout/footer";
+
+@import "../scss/base/typo";
+
+@import "../scss/components/bootstrap";
+
+@import "../scss/utilities/variables";
+
+$imagenes: a520mgigabyte;
+
+@each $componente in $imagenes {
+    .card-#{$componente} {
+    background-image: url("../img/imagenes/#{componente}.png");
+    }
+    
+}
+
+.card-a520mgigabyte {
+    background-image: url("../img/imagenes/a520mgigabyte.png");
+    
+    
+}

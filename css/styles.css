@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  height: auto; }
+  body footer {
+    background-color: #080808;
+    height: auto; }
+
+header {
+  color: white;
+  font-family: 'Khula', sans-serif;
+  font-size: 1.2rem;
+  height: 7.5rem;
+  text-align: center;
+  background-color: #161616; }
+  header button {
+    background-color: #161616;
+    border: none; }
+
+main aside {
+  grid-area: aside;
+  color: white;
+  background-color: black;
+  height: 70rem;
+  width: 5.5rem; }
+  main aside a {
+    text-decoration: none;
+    color: white; }
+  main aside a:hover {
+    color: white; }
+
+main div {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 15rem);
+  grid-template-rows: repeat(4, 22rem);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  background-color: black;
+  grid-template-areas: "aside div div" "aside div div" "aside div div" "aside div div";
+  height: 72rem; }
+  main div div {
+    background-color: #080808;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    width: auto;
+    box-shadow: 0px 3px 8px #080808;
+    transition: all 0.8s ease-in-out;
+    height: 23rem; }
+    main div div img {
+      margin-left: 27rem; }
+      main div div img p {
+        margin-top: 20rem; }
+
+footer div {
+  display: grid;
+  grid-template-columns: repeat(5, 4rem);
+  grid-template-rows: repeat(5, 4rem);
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  gap: 3rem;
+  margin-left: 20rem;
+  margin-right: 30rem;
+  color: white; }
+
+.card-a520mgigabyte {
+  background-image: url("../img/imagenes/componente.png"); }
+
+.card-a520mgigabyte {
+  background-image: url("../img/imagenes/a520mgigabyte.png"); }
