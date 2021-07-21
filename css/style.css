@@ -646,7 +646,7 @@ aside {
     "aside div div"
     "aside div div"
     "aside div div";
-    height: 72rem
+    height: 70rem
 }
 
 .asidegrid2 {
@@ -1527,6 +1527,7 @@ margin-left: 5.5rem;
     margin-left: auto;
     background-color: rgb(8, 8, 8);
     height: auto;
+    position: relative;
 
 
 }
@@ -1622,7 +1623,51 @@ display: none;
   left: 15rem;
 }
 
+.flexOwl {
+  display: flex;
+ align-items: stretch;
+
   }
+
+.processorGrid {
+display: block;
+height: auto;
+  }
+.general-GridChildren {
+  display: absolute;
+  
+
+}
+.dropdown-menu {
+  width: auto;
+  height: auto;
+}
+
+.general-Grid {
+  height: auto;
+  display: block;
+}
+.amdgrid2 {
+  display: block;
+  height: auto;
+}
+.nextPage {
+  height: auto;
+  position: absolute;
+  width: auto;
+}
+.flexBoxguide {
+  height: auto;
+  display: block;
+}
+.flexchildren {
+  height: auto;
+  display: block;
+}
+.table {
+  display: block;
+}
+}
 @media only screen and (min-width: 769px) {
     
 .flexOwl {
