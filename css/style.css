@@ -1652,8 +1652,8 @@ height: auto;
 }
 .nextPage {
   height: auto;
-  position: absolute;
-  width: auto;
+  margin-left: -5rem;
+  margin-bottom: auto;
 }
 .flexBoxguide {
   height: auto;
@@ -1678,8 +1678,38 @@ height: auto;
 aside {
   height: auto;
 }
+.Payments {
+  height: auto;
+
 }
-@media only screen and (min-width: 769px) {
+.exclude-mobile-footer {
+  display: none;
+}
+.btn {
+  width: auto;
+  height: auto;
+}
+.asidegrid2 {
+  height: auto;
+}
+.intelGrid {
+  display: block;
+  height: auto;
+}
+.gridVideocard {
+  display: block;
+  height: auto;
+}
+.flexIndexparts {
+  height: auto;
+  width: auto;
+}
+.modal {
+  width: auto;
+}
+}
+
+@media only screen and (min-width: 767px) {
     
 .flexOwl {
  display: flex;
