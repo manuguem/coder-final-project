@@ -855,6 +855,8 @@ margin-left: 5.5rem;
     background-color: rgb(8, 8, 8);
     width: 20rem;
     border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -997,6 +999,7 @@ margin-left: 5.5rem;
   position:relative;
   border: none;
   outline: none;
+  margin-right: 20rem;
 }
   .words {
     color: white;
@@ -1680,6 +1683,8 @@ aside {
 }
 .Payments {
   height: auto;
+  margin-right: -2rem;
+  width: 15rem;
 
 }
 .exclude-mobile-footer {
@@ -1706,6 +1711,12 @@ aside {
 }
 .modal {
   width: auto;
+}
+
+.flexIndexpartschild{
+  height: auto;
+  width: auto;
+  margin-top: 2rem;
 }
 }
 
