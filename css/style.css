@@ -1145,6 +1145,9 @@ margin-left: 5.5rem;
   display: none;
 }
 
+.hide-desktop {
+  color: white;
+}
 /* .d-flex {
     width: 30rem;
 } */
@@ -1735,6 +1738,9 @@ aside {
 .flexPayments iframe {
   width: auto;
   height: auto;
+}
+.hide-desktop {
+  display: none;
 }
 }
 
