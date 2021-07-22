@@ -1729,6 +1729,8 @@ aside {
 }
 .bg-noDesktop {
   background: rgb(20, 20, 20);
+  border-color: rgb(20, 20, 20);
+  border-width: 2px;
 }
 }
 
