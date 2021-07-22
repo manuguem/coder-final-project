@@ -994,8 +994,7 @@ margin-left: 5.5rem;
 }
 
 .btn4 {
-  left: 59rem;
-  position: absolute;
+  position:relative;
   border: none;
   outline: none;
 }
@@ -1634,12 +1633,12 @@ display: block;
 height: auto;
   }
 .general-GridChildren {
-  display: absolute;
-  
+  position: auto;
+  top: 40rem;
 
 }
 .dropdown-menu {
-  width: auto;
+  width: 15rem;
   height: auto;
 }
 
@@ -1665,7 +1664,19 @@ height: auto;
   display: block;
 }
 .table {
-  display: block;
+  display: none;
+}
+.flexBoxCircles {
+  display: none;
+}
+.card {
+  height:auto;
+}
+.item {
+  height: auto;
+}
+aside {
+  height: auto;
 }
 }
 @media only screen and (min-width: 769px) {
