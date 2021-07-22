@@ -1721,6 +1721,7 @@ aside {
   height: auto;
   width: auto;
   margin-top: 2rem;
+  display: none;
 }
 
 .no-desktop {
