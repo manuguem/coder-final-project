@@ -822,8 +822,9 @@ margin-left: 5.5rem;
 .card {
     border-radius: 0.3rem;
     background-color: rgb(5, 5, 5);
-    height: 18.5rem;
+    height: 17.2rem;
 }
+
 
 .card2 {
   border-radius: 0.3rem;
@@ -1140,6 +1141,9 @@ margin-left: 5.5rem;
     background: #2c2c2c;
 }
 
+.no-desktop {
+  display: none;
+}
 
 /* .d-flex {
     width: 30rem;
@@ -1481,6 +1485,7 @@ margin-left: 5.5rem;
 
   } */
   
+
   @media only screen and (max-width: 768px) {
 
 .item {
@@ -1706,8 +1711,7 @@ aside {
   height: auto;
 }
 .flexIndexparts {
-  height: auto;
-  width: auto;
+  display: none;
 }
 .modal {
   width: auto;
@@ -1717,6 +1721,13 @@ aside {
   height: auto;
   width: auto;
   margin-top: 2rem;
+}
+
+.no-desktop {
+  display: inline-block;
+}
+.bg-noDesktop {
+  background: rgb(15, 15, 15);
 }
 }
 
