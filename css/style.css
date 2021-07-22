@@ -1732,6 +1732,10 @@ aside {
   border-color: rgb(20, 20, 20);
   border-width: 2px;
 }
+.flexPayments iframe {
+  width: auto;
+  height: auto;
+}
 }
 
 @media only screen and (min-width: 767px) {
