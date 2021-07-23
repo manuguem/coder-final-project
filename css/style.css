@@ -127,13 +127,6 @@ font-weight: bold;
   gap: 1rem;
 }
 
-
-.link-text {
-    color: black;
-    font-family: 'Khula', sans-serif;
-    text-align: center;
-}
-
 .form-control{
     width: 21rem;
     margin-left: 1rem;
@@ -244,14 +237,6 @@ font-weight: bold;
     
 }
 
-.khulaLeft {
-    color: white;
-    font-family: 'Khula', sans-serif;
-    text-align: left;
-}
-
-
-
 .khulaGuide {
     color: white;
     font-family: 'Khula', sans-serif;
@@ -335,35 +320,7 @@ footer p {
 .nextPage:hover {
     background: #2c2c2c;
 }
-
-
-/**
- * ----------------------------------------
- * animation slide-top
- * ----------------------------------------
- */
- @-webkit-keyframes slide-top {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-    }
-    100% {
-      -webkit-transform: translateY(-100px);
-              transform: translateY(-100px);
-    }
-  }
-  @keyframes slide-top {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-    }
-    100% {
-      -webkit-transform: translateY(-100px);
-              transform: translateY(-100px);
-    }
-  }
   
-
 
 .centerImage {
     margin-top: 2rem;
@@ -375,10 +332,6 @@ footer p {
     display: block;
     margin: 0 auto;
     width: 50%;
-  }
-  .centerImage2 {
-    margin: 0 auto;
-    width: 60%;
   }
 
 .backgroundColor {
@@ -416,34 +369,12 @@ footer p {
 
 }
 
-.imgSize2 {
-    width: 16.5rem;
-    height: 13rem;
-    border-radius: 0.3rem;
-
-}
-
-.imgSize3 {
-  width: 190px;
-  height: 190px;
-
-}
-
 .zoom:hover {
     transform: scale(1.1);
 }
 
 .zoom {
     transition: transform 0.2s;
-}
-
-.flexBoxbox {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    margin: 0 auto;
-    width: 50%;
-    align-items: center;
 }
 
 .flexBoxguide {
@@ -467,15 +398,6 @@ footer p {
   margin-left: 30rem;
 }
 
-.flexchildren2 {
-    text-align: center;
-    font-family: 'Khula', sans-serif;
-    background-color: rgb(236, 235, 235);
-    height: 9rem;
-    width: 8.5rem;
-    border-radius: 100%;
-}
-
 .sectionCircles {
     background-color: rgb(10, 10, 10);
 }
@@ -488,13 +410,6 @@ footer p {
     margin: 0 auto;
     width: 80rem;
     align-items: center;
-}
-
-.PCSTUFFLogo {
-    font-family: 'Khula', sans-serif;
-    font-size: 150%;
-    letter-spacing: 2px;
-    text-transform: lowercase;
 }
 
 a {
@@ -907,35 +822,6 @@ margin-left: 5.5rem;
     box-shadow: 0 0px 15px rgba(255, 255, 255, 0.753);
 }
 
-/* .boxShadow:before, .boxShadow:after {
-    content: '';
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-      #0000ff, #00ff00,#ffff00, #ff0000);
-    background-size: 400%;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    z-index: -1;
-    animation: steam 20s linear infinite;
-  }
-  
-  @keyframes steam {
-    0% {
-      background-position: 0 0;
-    }
-    50% {
-      background-position: 400% 0;
-    }
-    100% {
-      background-position: 10 0;
-    }
-  }
-  
-  .boxShadow:after {
-    filter: blur(10px);
-  } */
 .imgtextLogoPosition {
     display:inline-block;
     font-weight: bold;
@@ -990,10 +876,6 @@ margin-left: 5.5rem;
 
 .btn2:hover {
   background: rgb(8, 8, 8);
-}
-
-.btn3 {
-  margin-right: 15rem;
 }
 
 .btn4 {
@@ -1443,51 +1325,6 @@ margin-left: 5.5rem;
       opacity: 0;
     }
   }
-  
-/* 
-  @media only screen and (max-width: 1366px) {
-
-    .flexBoxbox {
-        display: flex;
-        justify-content: space-evenly;
-        background-color: rgb(8, 8, 8);
-        width: auto;
-        height: 7rem;
-        justify-content: baseline;
-     }
-
-    .footerGrid {
-        width: auto;
-    }
-    .flexBoxPcparts {
-        width: 0 auto;
-        
-    }
-
-    .flexBoxboxarticle {
-        height: auto;
-    }
-    .imgSize2 {
-        width: 0 auto;
-        height: auto;
-    }
-
-    .imgSize3 {
-        width: 100%;
-        height: auto;
-    }
-
-    .imgSize4 {
-        width: 0 auto;
-        height: auto;
-    }
-
-    .imgmobile1 {
-        display: none;
-    }
-
-  } */
-  
 
   @media only screen and (max-width: 768px) {
 
