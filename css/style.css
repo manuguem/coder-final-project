@@ -1573,6 +1573,10 @@ aside {
 .hide-desktop {
   display: none;
 }
+.btn4 {
+display: none;
+
+}
 }
 
 @media only screen and (min-width: 767px) {
