@@ -1,53 +1,25 @@
+body {
+    height: 30rem;
 main {
-
-    aside {
-        grid-area: aside;
+    height: 20rem;
+    position: relative;
+div {
+    .flexBoxguide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    p {
+        .khulaGuide {
         color: white;
-        background-color: rgb(0, 0, 0);
-        height: 70rem;
-        width: 5.5rem;
-        a {
-            text-decoration: none;
-            color: white;
-        }
-       
-        a:hover {
-            color: white;
-        }
-    
+        font-family: 'Khula', sans-serif;
+        font-size: large;
     }
-    div {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(4,15rem);
-        grid-template-rows: repeat(4,22rem);
-        grid-column-gap: 2rem;
-        grid-row-gap: 2rem;
-        background-color: black;
-        grid-template-areas:
-        "aside div div"
-        "aside div div"
-        "aside div div"
-        "aside div div";
-        height: 72rem;
-
-            div {
-            background-color: rgb(8, 8, 8);
-            color: #fff;
-            padding: 0.5em;
-            border-radius: 0.7em;
-            width: auto; 
-            box-shadow: 0px 3px 8px rgb(8, 8, 8);
-            transition: all 0.8s ease-in-out;
-            height: 23rem;;
-                img {
-                 margin-left: 27rem;
-                 p{
-                     margin-top: 20rem;
-                 }
-
-        }
+}
     }
-
-    }
+}
+}
 }

@@ -20,6 +20,8 @@ footer {
 
 @import "../scss/utilities/variables";
 
+@import "../bootstrap-5.0.2-dist/css/bootstrap.min.css";
+
 $imagenes: a520mgigabyte;
 
 @each $componente in $imagenes {

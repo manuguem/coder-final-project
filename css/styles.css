@@ -1,9 +1,20 @@
+@import url(../bootstrap-5.0.2-dist/css/bootstrap.min.css);
 body {
   background-color: black;
   height: auto; }
   body footer {
     background-color: #080808;
     height: auto; }
+
+div p {
+  color: white;
+  font-family: 'Khula', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  height: 2rem;
+  text-align: center;
+  background-color: #1e1e1e;
+  margin-bottom: -0.5rem; }
 
 header {
   color: white;
@@ -12,45 +23,49 @@ header {
   height: 7.5rem;
   text-align: center;
   background-color: #161616; }
-  header button {
-    background-color: #161616;
-    border: none; }
-
-main aside {
-  grid-area: aside;
-  color: white;
-  background-color: black;
-  height: 70rem;
-  width: 5.5rem; }
-  main aside a {
-    text-decoration: none;
+  header nav .form-control4 {
+    padding: 0.3rem;
+    width: 42rem;
+    margin-left: 18rem;
+    position: absolute;
+    background: #232323;
+    border: none;
     color: white; }
-  main aside a:hover {
-    color: white; }
+    header nav .form-control4 .navbar {
+      width: auto;
+      background: #131313;
+      color: white;
+      height: 6.5rem;
+      font-size: larger;
+      text-align: center;
+      text-decoration: none; }
+  header nav p {
+    margin-top: 1rem;
+    position: absolute; }
+  header nav button {
+    position: relative;
+    border: none;
+    outline: none;
+    margin-right: 8.5rem;
+    background: transparent; }
 
-main div {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(4, 15rem);
-  grid-template-rows: repeat(4, 22rem);
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  background-color: black;
-  grid-template-areas: "aside div div" "aside div div" "aside div div" "aside div div";
-  height: 72rem; }
-  main div div {
-    background-color: #080808;
-    color: #fff;
-    padding: 0.5em;
-    border-radius: 0.7em;
-    width: auto;
-    box-shadow: 0px 3px 8px #080808;
-    transition: all 0.8s ease-in-out;
-    height: 23rem; }
-    main div div img {
-      margin-left: 27rem; }
-      main div div img p {
-        margin-top: 20rem; }
+body {
+  height: 30rem; }
+  body main {
+    height: 20rem;
+    position: relative; }
+    body main div .flexBoxguide {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      margin: 0 auto;
+      width: 50%;
+      align-items: center; }
+      body main div .flexBoxguide p .khulaGuide {
+        color: white;
+        font-family: 'Khula', sans-serif;
+        font-size: large; }
 
 footer div {
   display: grid;
@@ -58,10 +73,15 @@ footer div {
   grid-template-rows: repeat(5, 4rem);
   justify-content: space-evenly;
   padding-top: 3rem;
+  margin-bottom: auto;
   gap: 3rem;
   margin-left: 20rem;
-  margin-right: 30rem;
-  color: white; }
+  margin-right: 50rem;
+  color: white;
+  height: 4rem;
+  background-color: #141414; }
+  footer div p {
+    width: 40rem; }
 
 .card-a520mgigabyte {
   background-image: url("../img/imagenes/componente.png"); }

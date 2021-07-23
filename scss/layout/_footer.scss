@@ -5,9 +5,15 @@ footer {
     grid-template-rows: repeat(5,4rem);
   justify-content: space-evenly;  
   padding-top: 3rem;
+  margin-bottom: auto;
   gap: 3rem;    
   margin-left: 20rem;
-  margin-right: 30rem;
+  margin-right: 50rem;
   color: white;
+  height: 4rem;
+  background-color: rgb(20, 20, 20);
+  p{
+    width: 40rem;
+  }
 }
 }
