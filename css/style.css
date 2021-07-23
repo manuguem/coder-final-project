@@ -1410,13 +1410,6 @@ margin-left: 5.5rem;
 .khulaHeader {
 display: none;
 }
-.flexBoxCircles {
-    display: block;
-    width: auto;
-    height: auto;
-    margin-left: 3rem;
-    margin-right: 4rem;
-}
 .dropdown-menu {
     animation: slide-in-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     width: 20rem;
@@ -1492,7 +1485,8 @@ height: auto;
 
 .general-Grid {
   height: auto;
-  display: block;
+  display: inline-block;
+  
 }
 .amdgrid2 {
   display: block;
