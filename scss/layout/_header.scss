@@ -1,15 +1,4 @@
-div {
-    p {
-    color: white;
-    font-family: 'Khula', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    height: 2rem;
-    text-align: center;
-    background-color: rgb(30, 30, 30);
-    margin-bottom: -0.5rem;
-}
-}
+
 header {
     color: white;
     font-family: 'Khula', sans-serif;
@@ -17,6 +6,16 @@ header {
     height: 7.5rem;
     text-align: center;
     background-color: rgb(22, 22, 22); 
+    p {
+      display:inline-block;
+      font-weight: bold;
+      font-size: 2rem;
+      text-shadow: 0 0px 20px rgba(0, 0, 0, 0.753);
+      font-style: italic;
+      color: white;
+      position:relative; 
+      top:-0.3rem;  
+    }
     nav {
     .form-control4{
   padding: 0.3rem;

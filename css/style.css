@@ -402,7 +402,7 @@ footer p {
     background-color: rgb(10, 10, 10);
 }
 
-.flexBoxCircles {
+.sectionCircles  .flexBoxCircles {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(10, 10, 10);
@@ -410,6 +410,15 @@ footer p {
     margin: 0 auto;
     width: 80rem;
     align-items: center;
+}
+
+.sectionCircles  .flexBoxCircles .flexchildren2 {
+  text-align: center;
+  font-family: 'Khula', sans-serif;
+  background-color: rgb(236, 235, 235);
+  height: 9rem;
+  width: 8.5rem;
+  border-radius: 100%;
 }
 
 a {

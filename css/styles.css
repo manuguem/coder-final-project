@@ -1,21 +1,4 @@
 @import url(../bootstrap-5.0.2-dist/css/bootstrap.min.css);
-body {
-  background-color: black;
-  height: auto; }
-  body footer {
-    background-color: #080808;
-    height: auto; }
-
-div p {
-  color: white;
-  font-family: 'Khula', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  height: 2rem;
-  text-align: center;
-  background-color: #1e1e1e;
-  margin-bottom: -0.5rem; }
-
 header {
   color: white;
   font-family: 'Khula', sans-serif;
@@ -23,6 +6,15 @@ header {
   height: 7.5rem;
   text-align: center;
   background-color: #161616; }
+  header p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 0 0px 20px rgba(0, 0, 0, 0.753);
+    font-style: italic;
+    color: white;
+    position: relative;
+    top: -0.3rem; }
   header nav .form-control4 {
     padding: 0.3rem;
     width: 42rem;
@@ -49,42 +41,50 @@ header {
     margin-right: 8.5rem;
     background: transparent; }
 
-body {
-  height: 30rem; }
-  body main {
-    height: 20rem;
-    position: relative; }
-    body main div .flexBoxguide {
+main {
+  padding-bottom: 2rem; }
+
+footer {
+  position: static;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 23rem; }
+  footer div {
+    display: grid;
+    grid-template-columns: repeat(5, 5rem);
+    grid-template-rows: repeat(1, 5rem);
+    padding-top: 0.5rem;
+    grid-gap: 4rem;
+    color: white;
+    margin-left: 20rem; }
+    footer div p {
+      display: inline-block;
+      font-weight: bold;
+      font-size: 2rem;
+      text-shadow: 0 0px 20px rgba(0, 0, 0, 0.753);
+      font-style: italic;
+      color: white;
+      margin-top: 10rem;
       position: relative;
-      display: flex;
-      justify-content: center;
-      background-color: black;
-      margin: 0 auto;
-      width: 50%;
-      align-items: center; }
-      body main div .flexBoxguide p .khulaGuide {
-        color: white;
-        font-family: 'Khula', sans-serif;
-        font-size: large; }
+      top: 0.6rem;
+      left: -0.5rem; }
 
-footer div {
-  display: grid;
-  grid-template-columns: repeat(5, 4rem);
-  grid-template-rows: repeat(5, 4rem);
-  justify-content: space-evenly;
-  padding-top: 3rem;
-  margin-bottom: auto;
-  gap: 3rem;
-  margin-left: 20rem;
-  margin-right: 50rem;
-  color: white;
-  height: auto;
-  background-color: #141414; }
-  footer div p {
-    width: 40rem; }
-
-.card-a520mgigabyte {
-  background-image: url("../img/imagenes/componente.png"); }
-
-.card-a520mgigabyte {
-  background-image: url("../img/imagenes/a520mgigabyte.png"); }
+body {
+  background-color: black;
+  height: auto; }
+  body main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    color: white;
+    height: auto; }
+  body footer {
+    background-color: #080808;
+    font-family: "Khula", sans-serif; }
+    body footer a {
+      text-decoration: none; }
