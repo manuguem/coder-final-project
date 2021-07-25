@@ -1520,6 +1520,14 @@ height: auto;
 .flexBoxCircles {
   display: none;
 }
+
+.sectionCircles {
+  display: none;
+}
+
+.flexBoxCircles .flexchildren2 {
+  display: none;
+}
 .card {
   height:auto;
 }
