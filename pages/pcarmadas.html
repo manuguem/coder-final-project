@@ -289,7 +289,7 @@
                 <h5>$27999</h5>
             </div>
         </div><br>
-    </main>
+    </main><br>
     <div class="nextPage">
         <a href="../pages/pcarmadas2.html">Página siguiente</a>
     </div><br>
@@ -401,26 +401,28 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
         $('.owl-carousel').owlCarousel({
-            items: 2,
-            nav: false,
-            loop: false,
-            autoplay: true,
-            rewind: true
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
 
                 0: {
-                items: 2,
-                nav: true
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 5,
-                nav: true,
-                loop: false
+                    items: 2,
+                    nav: false,
+                    loop: false,
+                    autoplay: true,
+                    rewind: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
             }
-        }
         })
     </script>
 </body>
