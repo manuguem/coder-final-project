@@ -363,6 +363,12 @@ footer p {
 
 }
 
+.imgSize1 {
+  height: auto;
+  width: auto;
+
+}
+
 .imgSizepcparts{
     width: 12rem;
     height: 12rem;
@@ -1342,7 +1348,7 @@ margin-left: 5.5rem;
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1232px) {
 
 .item {
     padding-left: 0;
@@ -1592,6 +1598,10 @@ display: none;
 height:4rem;
 width: 9.5rem; 
 margin-left: -0.5rem;
+}
+
+.carousel-indicators {
+  display: none;
 }
 
 @media only screen and (min-width: 767px) {
