@@ -1,11 +1,15 @@
 @import url(../bootstrap-5.0.2-dist/css/bootstrap.min.css);
+div {
+  color: white; }
+
 header {
   color: white;
   font-family: 'Khula', sans-serif;
   font-size: 1.2rem;
   height: 7.5rem;
   text-align: center;
-  background-color: #161616; }
+  background-color: #131313;
+  margin-top: -1rem; }
   header p {
     display: inline-block;
     font-weight: bold;
@@ -57,7 +61,8 @@ footer {
     padding-top: 0.5rem;
     grid-gap: 4rem;
     color: white;
-    margin-left: 20rem; }
+    margin-left: 20rem;
+    font-size: 18px; }
     footer div p {
       display: inline-block;
       font-weight: bold;
