@@ -1605,6 +1605,10 @@ margin-left: -0.5rem;
 .bg-Articles {
   display: none;
 }
+
+.margin-imgGuide {
+  padding: auto;
+}
 @media only screen and (min-width: 767px) {
     
 .flexOwl {
