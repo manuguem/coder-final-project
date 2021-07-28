@@ -1512,6 +1512,9 @@ height: auto;
   height: auto;
   display: block;
 }
+.articleMobile-guide {
+  padding: 2rem;
+}
 .flexchildren {
   height: auto;
   display: block;
@@ -1608,6 +1611,7 @@ margin-left: -0.5rem;
 .margin-imgGuide {
   padding: auto;
 }
+
 @media only screen and (min-width: 767px) {
     
 .flexOwl {
