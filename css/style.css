@@ -51,7 +51,9 @@ font-weight: bold;
 
 /* FIN BEM */
 
-
+.break {
+  line-break: normal;
+}
 .khulaHeader {
     color: white;
     font-family: 'Khula', sans-serif;
@@ -354,8 +356,8 @@ footer p {
 
   }
 
-.inputColor {
-    color: white;
+.heightOwl-card {
+    height: 4rem;
 }
 
 .imgSize {
@@ -363,9 +365,8 @@ footer p {
 
 }
 
-.imgSize1 {
-  height: auto;
-  width: auto;
+.borderRadius-owl {
+  border-radius: 0.2rem;
 
 }
 
