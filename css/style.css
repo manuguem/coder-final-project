@@ -61,7 +61,7 @@ font-weight: bold;
     font-size: 15px;
     height: 1.5rem;
     text-align: center;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(25, 25, 25);
 }
 
 .bg-khulaHeader{
@@ -1359,9 +1359,6 @@ margin-left: 5.5rem;
     
 }
 
-.form-control {
-    display: none;
-}
 .carousel-item {
     width: 100%;
     height: auto;
@@ -1514,7 +1511,8 @@ aside {
 }
 .btn {
   width: auto;
-  height: auto;
+  height: 25rem;
+  margin-right: 2rem;
 }
 .asidegrid2 {
   height: auto;
@@ -1568,6 +1566,16 @@ margin-left: -0.5rem;
   padding: auto;
 }
 
+.submit-form {
+  position: absolute;
+  margin-top: -0.5rem;
+  margin-left: 3.5rem;
+  height: 2rem;
+} 
+
+.contact-mobile {
+  padding: 2rem;
+}
 @media only screen and (min-width: 767px) {
     
 .flexOwl {
