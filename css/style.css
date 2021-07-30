@@ -51,9 +51,6 @@ font-weight: bold;
 
 /* FIN BEM */
 
-.break {
-  line-break: normal;
-}
 .khulaHeader {
     color: white;
     font-family: 'Khula', sans-serif;
@@ -77,15 +74,6 @@ font-weight: bold;
 
 }
 
-.formModal {
-    color: black;
-    font-family: 'Khula', sans-serif;
-    text-align: center;
-    background: rgb(8, 8, 8);
-
-
-    
-}
 .dropdown-menu {
     animation: slide-in-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     width: 20rem;
@@ -133,13 +121,6 @@ font-weight: bold;
     width: 21rem;
     margin-left: 1rem;
     margin-right: 1rem;
-}
-
-
-.form-control2{
-    width: 35rem;
-    margin-right: 42rem;
-    border-radius: 0.7rem;
 }
 
 .form-control4{
@@ -330,11 +311,6 @@ footer p {
     margin-right: auto;
     width: 55%;
   }
-  .centerImage2 {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-  }
 
 .backgroundColor {
     background-color: black;
@@ -479,33 +455,6 @@ nav ul li ul li {
     display: block;
 
 }
-
-/**
- * ----------------------------------------
- * animation slide-fwd-center
- * ----------------------------------------
- */
- @-webkit-keyframes slide-fwd-center {
-    0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
-    }
-  }
-  @keyframes slide-fwd-center {
-    0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
-    }
-  }
-
 
 aside {
 	grid-area: aside;
@@ -729,12 +678,6 @@ margin-left: 5.5rem;
     display: block;
 }
 
-.owl-next {
-  height: 1rem;
-  width: 1rem;
-  background-size: 5rem, 5rem;
-
-}
 .card {
     border-radius: 0.5rem;
     background-color: rgb(5, 5, 5);
@@ -1457,15 +1400,6 @@ display: none;
   height: auto;
 }
 
-.general-Grid {
-  height: auto;
-  display: inline-block;
-  
-}
-.amdgrid2 {
-  display: block;
-  height: auto;
-}
 .nextPage {
   height: auto;
   margin-left: -5rem;
