@@ -162,7 +162,7 @@ font-weight: bold;
 
 }
 
-.modal-header {
+.modal .modal-header {
     color: white;
     font-family: 'Khula', sans-serif;
     text-align: center;
@@ -170,7 +170,6 @@ font-weight: bold;
 
 
 }
-
 
 .btn-close{
     color: white;
@@ -693,21 +692,6 @@ margin-left: 5.5rem;
     height: 97rem;    
 
   }
-
-  @keyframes cambio {
-      0% { margin-left: 0;}
-      20% { margin-left: 0;}
-
-      25% { margin-left: -100%;}
-      45% { margin-left: -100%;}
-
-      50% { margin-left: -200%;}
-      70% { margin-left: -200%;}
-
-      75% { margin-left: -300%;}
-      100% { margin-left: -300%;}
-  }
-
 
 .container {
     background: black;
@@ -1364,14 +1348,6 @@ margin-left: 5.5rem;
     top: 0.6rem;
 }
 
-.flexIndexparts {
-    display: inline-block;
-    justify-content: space-around;
-    background-color: rgb(5, 5, 5);
-    margin-left: auto;
-    margin-right: auto;
-    
-    }
  .khulaWhiteLeft {
     color: white;
     font-family: 'Khula', sans-serif;
@@ -1458,9 +1434,6 @@ display: none;
     margin-right: auto;
 }
 
-.imglogoPosition {
-display: none; 
-}
 
 .btn2 {
   display: none;
@@ -1480,15 +1453,6 @@ display: none;
 
 }
 
-.processorGrid {
-display: block;
-height: auto;
-  }
-.general-GridChildren {
-  position: auto;
-  top: 40rem;
-
-}
 .dropdown-menu {
   width: 15rem;
   height: auto;
@@ -1553,17 +1517,7 @@ aside {
 .asidegrid2 {
   height: auto;
 }
-.intelGrid {
-  display: block;
-  height: auto;
-}
-.gridVideocard {
-  display: block;
-  height: auto;
-}
-.flexIndexparts {
-  display: none;
-}
+
 .modal {
   width: auto;
 }
