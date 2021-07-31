@@ -238,6 +238,12 @@ font-weight: bold;
     font-family: 'Khula', sans-serif;
 }
 
+.khulaBlack {
+  color: #000000;
+}
+.khulaBlack:hover {
+  color: #000000;
+}
 footer {
     background-color: rgb(8, 8, 8);
 }
