@@ -1290,7 +1290,7 @@ margin-left: 5.5rem;
     }
   }
 
-  @media (min-width: 1px) and (max-width: 1350px) {
+  @media (min-width: 1px) and (max-width: 1345px) {
 
 .item {
     padding-left: 0;
@@ -1527,7 +1527,7 @@ flexIndexparts {
 
 
 }
-@media (min-width: 1350px) and (max-width: 1399px) {
+@media (min-width: 1345px) and (max-width: 1399px) {
 
   .navbar-nav {
     padding-left: 10rem;
@@ -1569,7 +1569,9 @@ flexIndexparts {
 .margin-lefttable {
   margin-left: 15rem;
 }
-
+.height-Founders {
+  margin-top: 2rem;
+}
 }
 @media (min-width: 1400px) and (max-width: 1804px) {
   .flexIndexpartschild {
@@ -1593,5 +1595,8 @@ flexIndexparts {
 }
 .margin-lefttable {
   margin-left: 25rem;
+}
+.height-Founders {
+  margin-top: 2rem;
 }
 }
